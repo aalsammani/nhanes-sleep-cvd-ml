@@ -32,19 +32,24 @@ Model performance is evaluated using AUROC, AUPRC, recall, specificity, balanced
 
 ```text
 nhanes-sleep-cvd-ml/
-├── notebooks/
-│   └── NHANES_Sleep_CVD_Analysis.ipynb
+│
+├── README.md
+├── NHANES_Sleep_CVD_Analysis.ipynb
+│
 ├── figures/
-├── data/
-│   └── README.md
-├── docs/
-│   └── METHODS.md
-├── requirements.txt
-├── environment.yml
-├── CITATION.cff
-├── LICENSE
-├── .gitignore
-└── README.md
+│   ├── sleep_duration_distribution.png
+│   ├── cvd_prevalence_by_sleep_category.png
+│   ├── cvd_prevalence_by_sex_and_race.png
+│   ├── clinical_measures_by_cvd_status.png
+│   ├── spearman_correlation_matrix.png
+│   ├── sleep_cvd_dose_response.png
+│   ├── model_performance_metrics.png
+│   ├── roc_and_precision_recall_curves.png
+│   ├── calibration_and_confusion_matrix.png
+│   └── permutation_feature_importance.png
+│
+└── docs/
+    └── Project_Report.pdf
 ```
 
 ## Data
