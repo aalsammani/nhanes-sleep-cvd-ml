@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Interpretable Machine Learning Analysis of Sleep and Cardiovascular Disease Risk Using NHANES Data (2013–2023)"
+type: software
+authors:
+  - family-names: Bush
+    given-names: Imani
+  - family-names: Alsammani
+    given-names: Abdallah
+year: 2026
+institution: Delaware State University
+license: MIT
+repository-code: "ADD_GITHUB_REPOSITORY_URL_HERE"
+keywords:
+  - NHANES
+  - cardiovascular disease
+  - sleep
+  - interpretable machine learning
+  - logistic regression
+  - random forest
+  - XGBoost
